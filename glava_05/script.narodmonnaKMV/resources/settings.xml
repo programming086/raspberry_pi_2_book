@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<settings>
+    <setting type="lsep" label="Settings" />
+    <setting id="lat" type="text"  label="Широта" default="44.05"/>
+    <setting id="lng" type="text"  label="Долгота" default="42.80"/>
+    <setting id="radius" type="text"  label="Радиус, км" default="50"/>
+
+</settings>

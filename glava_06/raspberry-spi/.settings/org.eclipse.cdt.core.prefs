@@ -1,0 +1,17 @@
+#Tue Feb 18 08:32:54 MSK 2014
+eclipse.preferences.version=1
+environment/project/com.xmos.cdt.toolchain.1613706599/XMOS_MODULE_PATH/delimiter=\:
+environment/project/com.xmos.cdt.toolchain.1613706599/XMOS_MODULE_PATH/operation=append
+environment/project/com.xmos.cdt.toolchain.1613706599/XMOS_MODULE_PATH/value=/Users/Ed/apps/sliceofpi/sc_spi/app_spi_loopback_demo\:/Users/Ed/apps/sliceofpi/sc_spi/module_spi_slave
+environment/project/com.xmos.cdt.toolchain.1613706599/append=true
+environment/project/com.xmos.cdt.toolchain.1613706599/appendContributed=true
+environment/project/com.xmos.cdt.toolchain.548807894/XMOS_MODULE_PATH/delimiter=\:
+environment/project/com.xmos.cdt.toolchain.548807894/XMOS_MODULE_PATH/operation=append
+environment/project/com.xmos.cdt.toolchain.548807894/XMOS_MODULE_PATH/value=/Users/Ed/apps/sliceofpi/sc_spi/app_spi_loopback_demo\:/Users/Ed/apps/sliceofpi/sc_spi/module_spi_slave
+environment/project/com.xmos.cdt.toolchain.548807894/append=true
+environment/project/com.xmos.cdt.toolchain.548807894/appendContributed=true
+environment/project/com.xmos.cdt.toolchain.737596870/XMOS_MODULE_PATH/delimiter=;
+environment/project/com.xmos.cdt.toolchain.737596870/XMOS_MODULE_PATH/operation=append
+environment/project/com.xmos.cdt.toolchain.737596870/XMOS_MODULE_PATH/value=C\:\\Users\\user\\.xmos\\repos\\sw_startkit_examples\\app_noughts_and_crosses;C\:\\Users\\user\\.xmos\\repos\\sw_startkit_examples\\app_spinning_bar
+environment/project/com.xmos.cdt.toolchain.737596870/append=true
+environment/project/com.xmos.cdt.toolchain.737596870/appendContributed=true

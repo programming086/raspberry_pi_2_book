@@ -1,0 +1,62 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<html>
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+       <meta http-equiv = "cache-control" content = "max-age=0">
+       <meta http-equiv = "cache-control" content = "no-cache">
+       <meta http-equiv = "expires" content = "0">
+       <meta http-equiv = "expires" content = "Tue, 01 Jan 1970 1:00:00 GMT">
+       <meta http-equiv = "pragma" content = "no-cache">
+	<meta name="viewport" content = "height = device-height, width = 420, user-scalable = no" /> 
+	<title>WebIOPi camera</title>
+	<script type="text/javascript" src="/webiopi.js"></script>
+	<script type="text/javascript">
+	function init() {
+		var button;
+			
+                button = webiopi().createButton("photo", "big photo", photo);
+                $("#cam").append(button);
+
+                button = webiopi().createAngleSlider(23, 30);
+	         $("#updown").append(button);
+
+ 
+                button = webiopi().createAngleSlider(24, 0);
+	         $("#leftright").append(button);
+                }
+
+       function photo() {
+		 $("#ph").html('');
+               $("#ph").html('<img src="pic.jpg">');
+               }
+	function get_img()
+         {
+         document.getElementById("img1").src="http://192.168.0.101:8080/pic.jpg";
+         }
+	webiopi().ready(init);
+		
+	</script>
+	<style type="text/css">
+		button {
+			margin: 5px 5px 5px 5px;
+                     width: 150px;
+			height: 50px;
+			font-size: 12pt;
+			font-weight: bold;
+			color: black;
+		}
+	</style>
+</head>
+<body onload='setInterval("get_img();",1000);'>
+	<div style="float:left">
+	<div id="content" align="center">
+		 <div id="cam"></div>
+		<div id="vid"><img id="img1" width="320" height="240" src="http://192.168.0.101:8080/pic.jpg"></div>
+		<div>down<span id="updown"></span>up</div>
+
+		<div>left<span id="leftright"></span>right</div>
+	</div>
+	</div>
+	<div style="float:right" id="ph"></div>
+</body>
+</html>
